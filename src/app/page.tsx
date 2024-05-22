@@ -7,9 +7,15 @@ export default function Home() {
         Simple test repo to check how often these images are counted towards the
         image optimization usage
       </h1>
-      <Image src="/fixed.jpg" width={4032} height={3024} className="w-96" />
+      <Image
+        src="/fixed.jpg"
+        width={4032}
+        height={3024}
+        className="w-96"
+        alt="Trees"
+      />
       <div className="relative w-96 h-64">
-        <Image src="/fill.jpg" fill />
+        <Image src="/fill.jpg" fill alt="Trees" />
       </div>
     </main>
   )
