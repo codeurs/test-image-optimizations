@@ -11,11 +11,22 @@ export default function Home() {
         src="/fixed.jpg"
         width={4032}
         height={3024}
-        className="w-96"
+        className="w-96 border-black border-2"
         alt="Trees"
       />
-      <div className="relative w-96 h-64">
+      <div className="relative w-96 h-64 border-black border-2">
         <Image src="/fill.jpg" fill alt="Trees" />
+      </div>
+      <hr></hr>
+      <Image
+        src="/fixed-full.jpg"
+        width={6720}
+        height={4480}
+        className="w-full border-black border-2"
+        alt="Trees"
+      />
+      <div className="relative w-full h-64 border-black border-2">
+        <Image src="/fill-full.jpg" fill alt="Trees" objectFit="cover" />
       </div>
     </main>
   )
